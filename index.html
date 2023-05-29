@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Weather Forecast</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container py-4">
+        <a class="navbar-brand text-center" href="index.html">
+          <img width="64px" height="38px" src="img/logo.png" alt="logo" />
+          <div class="nav-text d-inline-block">
+            <h1 class="h6 mb-1 text-white">Weather</h1>
+            <p class="desc-text">tagline goes here</p>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item me-4">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="one">
+      <div class="container">
+        <div class="search-container">
+          <input
+            type="text"
+            placeholder="Find your location..."
+            name="search"
+            id="search"
+          />
+          <button id="submit">Find</button>
+        </div>
+      </div>
+    </section>
+    <section class="two">
+      <div class="container">
+        <div class="row forcast-container">
+          <div class="col-lg-4 col-md-12 p-0" id="currentDay">
+            <div class="forcast-header left1">
+              <!-- <div class="day">Monday</div>
+              <div class="date">19February</div> -->
+            </div>
+            <div class="forcast-info left2">
+              <!-- <p class="location">Cairo</p>
+              <div
+                class="temp-info d-flex justify-content-between align-items-center"
+              >
+                <p class="temp">18<sup>o</sup>C</p>
+                <span class="temp-icon"
+                  ><i class="fa-solid fa-cloud-sun"></i></span>
+              </div>
+              <p class="custom">Partly cloudy</p>
+              <span class="me-4"
+                ><img src="img/icon-umberella.png" alt="logo" /> 20%</span
+              >
+              <span class="me-4"
+                ><img src="img/icon-wind.png" alt="logo" /> 18Km/h</span
+              >
+              <span><img src="img/icon-compass.png" alt="logo" /> East</span> -->
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 p-0">
+            <div class="forcast-header center1">
+              <!-- <div class="day">Tuesday</div> -->
+            </div>
+            <div class="forcast-info center2">
+              <!-- <span class="temp-icon"><i class="fa-regular fa-sun"></i></span>
+              <div class="temp-info">
+                <p class="temp">25<sup>o</sup>C</p>
+              </div>
+              <p class="temp">19<sup>o</sup>C</p>
+              <p class="custom">Sunny</p> -->
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 p-0">
+            <div class="forcast-header right1">
+              <!-- <div class="day">Wednesday</div> -->
+            </div>
+            <div class="forcast-info right2">
+              <!-- <span class="temp-icon"><i class="fa-regular fa-sun"></i></span>
+              <div class="temp-info">
+                <p class="temp">25<sup>o</sup>C</p>
+              </div>
+              <p class="temp">19<sup>o</sup>C</p>
+              <p class="custom">Sunny</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container py-5">
+        <div class="row mb-4">
+          <div class="col-lg-8">
+            <div class="search-container">
+              <input
+                type="text"
+                placeholder="Enter your Email to subscribe..."
+                name="search"
+                id="search"
+              />
+              <button id="submit">Subscribe</button>
+            </div>
+          </div>
+          <div class="col-lg-3 offset-lg-1">
+            <div class="icons d-flex">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-google"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <p>
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</html>
